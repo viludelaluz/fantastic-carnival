@@ -1,0 +1,11 @@
+/* variables */
+$ale:'Alegreya';
+$sou:'Source Sans Pro';
+$centrar:center;
+
+a.logo, .carousel-text, h2, h3{
+	font-family:$ale
+}
+a.menu, a.submenu, a.undermenu, a.email, h6, h5, p, h4{
+	font-family:$sou
+}

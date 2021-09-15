@@ -1,0 +1,30 @@
+@import "colores";
+@import "fuentes";
+@import "nav";
+@import "footer";
+
+.row,.container-fluid, .col-lg-12, .col-xs-12{
+	padding: 0;
+	margin:0;
+}
+.index{
+	@media (max-width: 768px) {
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            min-width: auto;
+            margin-bottom: 40px;
+      }
+}
+.ingresar{
+	margin: 150px;
+}
+.carousel-text{
+	color: white;
+	font-size: 55px; 
+	font-style: italic; 
+	font-family: 'Alegreya', serif;
+}
+p.boton{
+	text-align: center;
+}

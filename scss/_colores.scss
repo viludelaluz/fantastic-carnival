@@ -1,0 +1,21 @@
+/* variables */
+$negro:#000000;
+$rosa:#F6C6B6;
+$aqua:#D3FCF2;
+$blanco:#FDFEFE;
+
+a.logo, h2, h3, p, h4, .jeans, .price{
+	color:$negro
+}
+a.submenu{
+	color:$rosa
+}
+a.undermenu, a.email, h6, h5, .texto_footer{
+	color:$blanco
+}
+body{
+	background-image: linear-gradient($aqua, $rosa)
+}
+footer{
+	background-color:$rosa
+}
